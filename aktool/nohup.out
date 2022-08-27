@@ -1,0 +1,10 @@
+[16/Jun/2022 09:03:40] "GET / HTTP/1.1" 200 2676
+[16/Jun/2022 09:03:47] "GET / HTTP/1.1" 200 2676
+Performing system checks...
+
+________________scrape_request.html
+System check identified no issues (0 silenced).
+June 16, 2022 - 08:43:02
+Django version 3.0.7, using settings 'amazon_scraper.settings'
+Starting development server at http://0.0.0.0:8080/
+Quit the server with CONTROL-C.

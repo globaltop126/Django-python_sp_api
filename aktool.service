@@ -1,0 +1,14 @@
+[Unit]
+Description=uWSGI aktool service
+
+[Service]
+User=root
+ExecStart=uwsgi --ini /root/aktool.ini
+Restart=always
+KillSignal=SIGQUIT
+Type=notify
+NotifyAccess=all
+
+[Install]
+WantedBy=multi-user.target
+

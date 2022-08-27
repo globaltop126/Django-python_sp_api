@@ -1,0 +1,11 @@
+[Unit]
+Description=Process Background Tasks
+After=multi-user.target
+
+[Service]
+ExecStart=/usr/bin/python3 /root/aktool/manage.py process_tasks
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
